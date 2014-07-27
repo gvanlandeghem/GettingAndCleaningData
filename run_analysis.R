@@ -1,4 +1,4 @@
-# Read the input files for the given directory (test/train)
+# Read the input files for the given directory (test/train) using the selected features
 readData <- function(dirname, selected.features) {
     library(plyr)
     
